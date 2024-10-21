@@ -41,6 +41,8 @@
                 <td> {{$alumno->apellidoP}}</td>
                 <td> {{$alumno->apellidoM}}</td>
                 <td> {{$alumno->sexo}}</td>
+                <td>{{ $alumno->carrera->nombreCarrera }}</td>
+
                 <td><a
                     name=""
                     id=""
