@@ -26,6 +26,7 @@
                 <th scope="col">Apellido</th>
                 <th scope="col">Apellido Materno</th>
                 <th scope="col">Sexo</th>
+                <th scope="col">Carrera</th>
                 <th scope="col"></th>
                 <th scope="col"></th>
                 <th scope="col"></th>
