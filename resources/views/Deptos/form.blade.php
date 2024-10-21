@@ -27,7 +27,7 @@
 
 
   @csrf
-  <div class="row mb-3">
+  {{-- <div class="row mb-3">
     <label for="idDepto" class="col-sm-3 col-form-label">Id Depto</label>
     <div class="col-sm-9">
       <input type="text" class="form-control" id="idDepto" name="idDepto" value="{{old('idDepto',$depto->idDepto)}}" {{$des}}>
@@ -35,7 +35,7 @@
       <p class="text-danger">Error en: {{$message}}</p>
       @enderror
     </div>
-  </div>
+  </div> --}}
     
     <div class="row mb-3">
       <label for="nombreDepto" class="col-sm-3 col-form-label">Nombre del Departamento</label>

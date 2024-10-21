@@ -14,7 +14,7 @@ class DeptoController extends Controller
 
     public function __construct(){
         $this->val=[
-            'idDepto'       =>['required'],
+            
             'nombreDepto'    =>['required'],
             'nombreMediano' =>['required'],
             'nombreCorto' =>['required'],
