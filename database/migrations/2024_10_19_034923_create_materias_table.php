@@ -17,7 +17,7 @@ return new class extends Migration
             $table->String('nivel',5);
             $table->String('nombreMediano',50)->unique();
             $table->String('nombreCorto',50)->unique();
-            $table->String('modalidad',50)->unique();
+            $table->String('modalidad',50);
             $table->foreignId("reticula_id")->constrained();
             $table->timestamps();
 
