@@ -56,7 +56,7 @@
     <div class="row mb-3">
         <label for="apellidoP"  class="col-sm-2 col-form-label">Descripcion</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="nombre" name="descripcion" value="{{old('descripcion',$periodo->descCorta)}}" {{$des}}>
+          <input type="text" class="form-control" id="nombre" name="descripcion" value="{{old('descripcion',$periodo->descripcion)}}" {{$des}}>
           @error("descripcion")
           <p class="text-danger">Error en {{$message}}</p>
         @enderror
